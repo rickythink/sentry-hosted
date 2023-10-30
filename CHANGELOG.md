@@ -1,5 +1,34 @@
 # Changelog
 
+## 23.6.2
+
+### Various fixes & improvements
+
+- Update nginx to 1.25.1 (#2235) by @williamdes
+- Fix error fingerprinting (#2237) by @chadwhitacre
+- A couple unit testing improvements (#2238) by @chadwhitacre
+- Fix #1684 (#2234) by @azaslavsky
+- Update memcached to 1.6.21 (#2231) by @williamdes
+- Update redis to 6.2.12 (#2230) by @williamdes
+- ref: Move all consumers to unified consumer CLI (#2224) by @hubertdeng123
+- Revert "ref: Move most consumers to unified consumer CLI" (#2223) by @hubertdeng123
+- ref: Move most consumers to unified consumer CLI (#2203) by @untitaker
+- Release 23.6.1 cleanup (#2209) by @hubertdeng123
+
+## 23.6.1
+
+### Various fixes & improvements
+
+- Fix bump version script (#2207) by @hubertdeng123
+
+## 23.6.0
+
+### Various fixes & improvements
+
+- Remove docker compose v1 (#2187) by @hubertdeng123
+- ref(compose): Separate ingest consumers (#2193) by @jan-auer
+- feat(profiling): Run profiling on self-hosted (#2154) by @phacops
+
 ## 23.5.2
 
 - No documented changes.
